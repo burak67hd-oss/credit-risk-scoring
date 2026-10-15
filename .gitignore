@@ -1,0 +1,7 @@
+data/*.csv
+data/credit.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+GUIDE_FR.md
