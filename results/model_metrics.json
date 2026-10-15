@@ -1,0 +1,32 @@
+{
+  "Logistic regression": {
+    "cv_auc_mean": 0.7775,
+    "cv_auc_std": 0.0039,
+    "test_auc": 0.7646,
+    "test_gini": 0.5292,
+    "test_ks": 0.405,
+    "decision_rule": {
+      "rule": "flag the 20% highest scores",
+      "threshold": 0.2972,
+      "recall_defaulters": 0.4943,
+      "precision_defaulters": 0.5467,
+      "confusion_matrix [[TN, FP], [FN, TP]]": [
+        [
+          4129,
+          544
+        ],
+        [
+          671,
+          656
+        ]
+      ]
+    }
+  },
+  "Gradient boosting": {
+    "cv_auc_mean": 0.7855,
+    "cv_auc_std": 0.0055,
+    "test_auc": 0.78,
+    "test_gini": 0.5601,
+    "test_ks": 0.4212
+  }
+}
